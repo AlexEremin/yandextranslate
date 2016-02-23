@@ -21,8 +21,8 @@ class Request
   end
 
   def langs(key, ui)
-  	request ="#{URL}getLangs?key=#{key}&ui=#{ui}"
-  	@con.connect(request)
+    request ="#{URL}getLangs?key=#{key}&ui=#{ui}"
+    @con.connect(request)
   end
 
 end
