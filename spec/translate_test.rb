@@ -18,5 +18,5 @@ describe Translator do
   it "translate test" do 
   	expect(test.translate(Key, 'кошка', 'en')).to eq "code"=>200, "detected"=>{"lang"=>"ru"}, "lang"=>"ru-en", "text"=>["cat"] 
   end	
-
+  
 end
