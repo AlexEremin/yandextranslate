@@ -12,7 +12,7 @@ class Translator
   end
 
   def detect(key, text)
-    request = @req.detect(key,text)
+    request = @req.detect(key, text)
     test = @res.result(request)
   end
 
@@ -22,7 +22,7 @@ class Translator
   end
 
   def get_langs(key, ui)
-    request = @req.langs(key,ui)
+    request = @req.langs(key, ui)
     @res.result(request)
   end 
 
