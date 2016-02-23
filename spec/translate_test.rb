@@ -7,7 +7,7 @@ describe Translator do
   test = Translator.new
 
   it "detect test" do
-    expect(test.detect(Key,'dog')).to eq "code" => 200, "lang" => 'en'
+    expect(test.detect(Key, 'dog')).to eq "code" => 200, "lang" => 'en'
   end
 
 
