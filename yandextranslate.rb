@@ -27,8 +27,3 @@ class Translator
   end 
 
 end
-Key = 'trnsl.1.1.20151227T085528Z.a14efb402b71cae3.d511f476e29f140e71a022b3b48b202b7720ef0e'
-test = Translator.new
-test.translate(Key, 'кошка', 'en')
-#test.get_langs(Key, 'ja')
-test.detect(Key, 'dog')
